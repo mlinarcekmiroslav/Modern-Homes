@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Homes</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="paddingxz-46">Modern Homes</h1>
+      <div class="nav-container">
+        <nav>
+          <ul>
+            <li class="d-inline-block m-right-60">
+              <a href="#about">ABOUT</a>
+            </li>
+            <li class="d-inline-block m-right-60">
+              <a href="#projects">PROJECTS</a>
+            </li>
+            <li class="d-inline-block m-right-60">
+              <a href="#contact">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header-button margin-right-46">GET A QUOTE</button>
+        <div class="toggle-btn">
+          <img src="./images/menu-icon.png" alt="" class="menu-btn" />
+        </div>
+        <div>
+          <ul class="dropdown-menu open">
+            <li class="d-inline-block">
+              <a href="#about">ABOUT</a>
+            </li>
+            <li class="d-inline-block">
+              <a href="#projects">PROJECTS</a>
+            </li>
+            <li class="d-inline-block">
+              <a href="#contact">CONTACT</a>
+            </li>
+            <li>
+              <button class="header-button">GET A QUOTE</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="main-container">
+      <section class="services-container m-bottom-120">
+        <div>
+          <h2 class="m-bottom-20 h2">ARCHITECTURAL SERVICES</h2>
+          <p>
+            We are passionate about creating innovative, functional, and
+            aesthetically pleasing living spaces that meet the unique needs of
+            our clients.
+          </p>
+        </div>
+        <img src="./images/services.jpg" alt="" class="service-img" />
+      </section>
+      <section id="about" class="about-container m-bottom-120">
+        <img src="./images/about.jpg" alt="" class="about-img" />
+        <div>
+          <h2 class="m-bottom-20 h2">ABOUT US</h2>
+          <p>
+            Our team of skilled architects and designers has years of experience
+            in the field of modern architecture and is committed to delivering
+            exceptional results. At our firm, we understand that a home is not
+            just a place to live, but also an expression of one's personality
+            and lifestyle. That's why we work closely with our clients to ensure
+            that every aspect of their modern home is tailored to their specific
+            preferences and requirements. We believe that good design is not
+            just about creating a beautiful space, but also about optimizing
+            functionality, maximizing natural light, and promoting
+            sustainability.
+          </p>
+        </div>
+      </section>
+      <section class="m-bottom-120">
+        <h2 class="h2">OUR VALUES</h2>
+        <div class="value-container">
+          <div class="value-1">
+            <p class="value-number">1</p>
+            <p>
+              Whether you're looking to build a new home or remodel an existing
+              one, our team is here to guide you through the process. We offer a
+              range of architectural services, from initial concept design to
+              construction documentation and project management.
+            </p>
+          </div>
+          <div class="value-2">
+            <p class="value-number">2</p>
+            <p>
+              We use the latest 3D modeling software to provide our clients with
+              a clear and realistic vision of their modern home design, and we
+              work closely with contractors and suppliers to ensure that our
+              projects are completed on time and within budget.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="m-bottom-120">
+        <h2 class="m-bottom-60 h2">OUR PROJECTS</h2>
+        <div class="gallery-container">
+          <div class="col-grid">
+            <img src="./images/gallery1.jpg" alt="" />
+            <img src="./images/gallery2.jpg" alt="" />
+          </div>
+          <div class="col-grid">
+            <img src="./images/gallery3.jpg" alt="" />
+            <img src="./images/gallery4.jpg" alt="" />
+          </div>
+        </div>
+        <button class="project-btn m-top-16">READ MORE &rarr;</button>
+      </section>
+      <section id="contact" class="m-bottom-120">
+        <h2 class="m-bottom-60 h2">CONTACT US</h2>
+        <div class="contact-container">
+          <div>
+            <h3 class="m-bottom-10">Fill the form</h3>
+            <form class="form">
+              <label for="email">Email</label>
+              <br />
+              <input
+                type="email"
+                class="form-input"
+                placeholder="Enter your email"
+                id="email"
+                name="email"
+                value=""
+                required
+              />
+              <br />
+              <label for="fname">Name</label>
+              <br />
+              <input
+                type="text"
+                placeholder="Enter your name"
+                id="fname"
+                name="fname"
+                value=""
+                required
+              />
+              <br />
+              <label for="lname">Lastname</label>
+              <br />
+              <input
+                type="text"
+                placeholder="Enter your lastname"
+                id="lname"
+                name="lname"
+                value=""
+                required
+              />
+              <br />
+              <label for="subject">Subject</label>
+              <br />
+              <input
+                type="text"
+                placeholder="Subject"
+                id="subject"
+                name="subject"
+                value=""
+                required
+              />
+              <br />
+              <label for="message">Add massage</label>
+              <br />
+              <textarea
+                class="form-input"
+                placeholder="Enter your massage"
+                rows="10"
+                cols="30"
+                id="message"
+                name="message"
+              ></textarea>
+              <br />
+              <button class="form-button">SEND &rarr;</button>
+            </form>
+          </div>
+          <img src="./images/contact.jpg" alt="" class="contact-img" />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <h4>Modern homes</h4>
+        <div class="socials">
+          <p>OUR SOCIALS</p>
+          <div class="socials-icons">
+            <a class="color-icon" href="https://instagram.com" target="_blank"
+              ><ion-icon name="logo-instagram"></ion-icon
+            ></a>
+            <a class="color-icon" href="https://facebook.com" target="_blank"
+              ><ion-icon name="logo-facebook"></ion-icon
+            ></a>
+            <a class="color-icon" href="https://twitter.com" target="_blank"
+              ><ion-icon name="logo-twitter"></ion-icon
+            ></a>
+            <a class="color-icon" href="https://wa.me/38161" target="_blank"
+              ><ion-icon name="logo-whatsapp"></ion-icon
+            ></a>
+          </div>
+        </div>
+        <div class="footer-projects">
+          <p class="m-bottom-6">PROJECTS</p>
+          <ul>
+            <li class="m-bottom-6"><a href="#">Homes</a></li>
+            <li class="m-bottom-6"><a href="#">Offices</a></li>
+            <li><a href="#">Others</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <p class="m-bottom-6">CONTACT</p>
+          <ul class="contact-list">
+            <li class="m-bottom-6 location-icon">
+              123 Anywhere St., Any City, ST 12345
+            </li>
+            <li class="m-bottom-6 phone-icon">+1-202-555-0175</li>
+            <li class="mail-icon">office@galcake.com</li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright m-bottom-40">
+        &copy; 2023 Modern Homes | All Rights Reserved
+      </p>
+      <hr class="w-60" />
+      <p class="text-center padding-y-30 text-georgia text-weight-400">
+        This project is coded by <em>Miroslav Mlinarček</em>
+      </p>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script>
+      const toggleBtn = document.querySelector(".toggle-btn");
+      const toggleBtnIcon = document.querySelector(".toggle-btn i");
+      const dropDownMenu = document.querySelector(".dropdown-menu");
+
+      toggleBtn.onclick = function () {
+        dropDownMenu.classList.toggle("open");
+      };
+    </script>
+  </body>
+</html>
